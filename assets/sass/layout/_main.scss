@@ -1,0 +1,13 @@
+#videos {
+    padding: 10px 15%;
+}
+#videos h2 {
+    padding: 10px 0px 20px 0px;
+}
+
+
+@media (min-width: 768px) {
+    #videos h2 {
+        padding: 15px 0px 20px 0px;
+    }
+}

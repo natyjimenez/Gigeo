@@ -1,0 +1,35 @@
+#hero-section {
+    height: 450px;
+    background-image: url('../../assets/images/image-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .hero-section__yuki {
+        padding: 10px 15%;
+        background: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        >div:nth-child(1) {
+            width: 290px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        button:nth-child(2) {
+            margin-left: 5px;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .hero-section__yuki {
+        border-bottom: 1px solid grey;
+    }
+}

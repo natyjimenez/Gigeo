@@ -1,0 +1,24 @@
+#hero-section button {
+    font-weight: 400;
+    font-size: 12px;
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    #hero-section button {
+        display: block;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .hero-section__btn-mensaje {
+        background-color: rgb(63, 196, 205);
+        border-style: unset;
+        color: white;
+    }
+    .hero-section__btn-seguir {
+        background-color: rgb(221, 86, 24);
+        border-style: unset;
+        color: white;
+    }
+}

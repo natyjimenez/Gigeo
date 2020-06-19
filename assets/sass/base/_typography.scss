@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', 'Archivo Black', sans-serif;
+}
+h1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Archivo Black';
+    font-size: 16px;
+    padding-top: 10px;
+}
+p {
+    font-size: 14px;
+}
+sup {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 12px;
+}
+#hero-section h2 {
+    font-family: 'Archivo Black';
+    font-size: 20px;
+}
+#videos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+#hero-section h6 {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+@media (min-width: 768px) {
+    #hero-section h2 {
+        font-size: 24px;
+    }
+    #videos h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+    #hero-section h6 {
+        font-size: 17px;
+    }
+}
