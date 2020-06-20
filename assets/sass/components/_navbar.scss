@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 10% 10px 15%;
+    padding: 0.625rem 10% 0.625rem 15%;
     .icons {
         flex-grow: 0;
     }
@@ -13,7 +13,7 @@
         margin: 0;
     }
     li {
-        margin: 0px 5px;
+        margin: 0px 0.3125rem;
     }
     sup {
         vertical-align: top;
@@ -31,6 +31,6 @@
 
 @media (min-width: 768px) {
     #navbar {
-        padding: 10px 15%;
+        padding: 0.625rem 15%;
     }
 }

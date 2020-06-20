@@ -7,11 +7,11 @@ h1 {
 }
 h3 {
     font-family: 'Archivo Black';
-    font-size: 16px;
-    padding-top: 10px;
+    font-size: 1em;
+    padding-top: 0.625rem;
 }
 p {
-    font-size: 14px;
+    font-size: 0.875em;
 }
 sup {
     font-family: 'Open Sans';
@@ -20,16 +20,16 @@ sup {
 }
 #hero-section h2 {
     font-family: 'Archivo Black';
-    font-size: 20px;
+    font-size: 1.25em;
 }
 #videos h2 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    padding: 10px 0px 20px 0px;
+    padding: 0.625rem 0px 1.25rem 0px;
 }
 #hero-section h6 {
-    font-size: 13px;
+    font-size: 0.813em;
     font-weight: 600;
     color: gray;
 }
@@ -37,13 +37,13 @@ sup {
 
 @media (min-width: 768px) {
     #hero-section h2 {
-        font-size: 24px;
+        font-size: 1.5em;
     }
     #videos h2 {
-        font-size: 28px;
+        font-size: 1.75em;
         text-align: left;
     }
     #hero-section h6 {
-        font-size: 17px;
+        font-size: 1.063em;
     }
 }
